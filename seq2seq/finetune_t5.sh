@@ -14,4 +14,3 @@ python finetune.py \
 --val_check_interval=0.1 --n_val=200 \
 --save_top_k = 2\
 --do_train --do_predict \
- "$@"
